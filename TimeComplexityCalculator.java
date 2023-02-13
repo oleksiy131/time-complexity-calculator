@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class TimeComplexity {
 
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(new File("sample_2.txt"));
+	    
+	
+	//File Name has to be CORRECT
+        Scanner sc = new Scanner(new File("YOUR_CODE_HERE.txt"));
         int operations = 0;
         int loops = 0;
         int nestedLoops = 0;
